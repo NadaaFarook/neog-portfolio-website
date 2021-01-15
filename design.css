@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #fff3e6;
+}
+nav{
+    color: #fff3e6;
+    background-color: #1a508b;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    height: 15vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 40%;
+    margin: 0 0 0 auto;
+}
+.name{
+    font-weight: 700;
+    padding: 0 2rem;
+}
+.page1{
+    text-align: center;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.page1 img{
+    max-width: 25%;
+    margin: 4rem;
+}
+span{
+    color: #1a508b;
+}
+.section {
+    background-color: #FFF8F1;
+}
+.section, .section2 {
+    height: 40vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h2 {
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: #1a508b;
+}
+p {
+    font-size: 25px;
+    width: 40%;
+    text-align: -webkit-center;
+    color: #1a508b91;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: #1a508b;
+    color: #fff8f1;
+    font-size: 16px;
+    border: 1px solid #ffffff00;
+}
+footer{
+    background-color: #1a508b;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: #fff3e6;
+    border-top-right-radius: 1rem;
+}
+footer h2{
+    color:#fff3e6
+}
+.footer-h5{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display:unset; 
+    }
+    .page1 img {
+        max-width: 50%;
+    }
+    .page1 h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+        width: unset;
+    }
+    h2 {
+         font-size:revert ;
+    }
+    .footer-h5{
+        width: unset;
+    }
+  }
